@@ -1,0 +1,31 @@
+{
+  "name": "exchange-rate-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --env-file=.env --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealBinaryGuru/exchange-rate-api.git"
+  },
+  "author": "SEANGLAY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RealBinaryGuru/exchange-rate-api/issues"
+  },
+  "homepage": "https://github.com/RealBinaryGuru/exchange-rate-api#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.0.1",
+    "node-cache": "^5.1.2",
+    "puppeteer": "^23.11.1",
+    "puppeteer-core": "^23.11.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
+}
